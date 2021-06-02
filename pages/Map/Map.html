@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="../../assets/icons/favicon.ico" type="image/x-icon">
+  <title>Map</title>
+</head>
+<body>
+  <header class="header">
+    <h1 class="general-title">PetStory Online</h1>
+    <div class="wrapper">
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <a href="../../index.html" class="header__logo-link">
+                    <img src="../../assets/icons/logo_footer.svg" alt="logo_footer" class="header__logo-pic">
+                </a>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="../../index.html" class="header__link inactive">About</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="Map.html" class="header__link active">Map</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="../../pages/zoos/panda/panda.html" class="header__link inactive">Zoos</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link inactive">Contact us</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" 
+                            class="header__link inactive">Designed by ©</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<header class="header__mobile">
+    <div class="wrapper">
+        <div class="header-mobile__wrapper">
+            <div class="header-mobile__logo">
+                <a href="index.html" class="header-mobile__logo-link">
+                    <img src="../../assets/icons/logo_footermin.svg" alt="logo-mobile_footer" class="header-mobile__logo-pic">
+                </a>
+            </div>
+            <input class="menu-input" type = "checkbox" name = "three" id = "three">
+            <label class="submenu-label" for = "three">
+                <img src="../../assets/icons/burger_menu.svg" alt="">
+            <ul class = "submenu">
+                <li class="header-mobile__item">
+                    <a href="../../index.html" class="header-mobile__link inactive">About</a>
+                </li>
+                <li class="header-mobile__item">
+                    <a href="../../pages/Map/Map.html" class="header-mobile__link active">Map</a>
+                </li>
+                <li class="header-mobile__item">
+                    <a href="../../pages/zoos/panda/panda.html" class="header-mobile__link inactive">Zoos</a>
+                </li>
+                <li   li class="header-mobile__item">
+                    <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" 
+                    class="header__link inactive">Designed by ©</a>
+                </li>
+            </ul>
+            </label>
+        </div>
+    </div>
+</header>
+<section class="map">
+    <div class="plus-minus">
+        <div class="plus-minus__sidebar">
+            <div class="plus-icon">
+                <div class="plus-icon__cont">
+                    <img src="../../assets/icons/plus_icon_active.svg" alt="" class="map__plus-icon icons plus-active" >
+                    <img src="../../assets/icons/plus_icon.svg" alt="" class="map__plus-icon icons">
+                </div>
+            </div>
+            <div class="minus-icon">
+                <div class="minus-icon__cont">
+                    <img src="../../assets/icons/minus_icon_active.svg" alt="" class="map__minus-icon icons">
+                    <img src="../../assets/icons/minus_icon.svg" alt="" class="map__minus-icon icons minus-active">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="map__wrapper">
+        <div class="map__img">
+            <div class="map__animals">
+                <div class="eagle boxs">
+                    <img src="../../assets/icons/eagle1.svg" alt="eagle1" class="eagle1_animals animals_pic">
+                    <img src="../../assets/icons/eagle2.svg" alt="eagle2" class="eagle2_animals animals_pic">
+                    <img src="../../assets/icons/green-icon.svg" alt="green-pointer-eagle" class="green-pointer-eagle pointers">
+                    <img src="../../assets/icons/orange-icon.svg" alt="orange-pointer-eagle" class="orange-pointer-eagle pointers">
+                    <div class="tooltiptext-eagle">
+                        <p class="amimals-name">Eagles</p>
+                        <p class="animals-from">Native to South America</p>
+                        <button disabled onclick="document.location='../../pages/zoos/Eagle/Eagle.html'" class="whatch-online-button">Whatch online</button>
+                    </div>
+                </div>
+                <div class="crocodile-box boxs">
+                    <img src="../../assets/icons/lonely-crocodile 1.svg" alt="crocodile" class="crocodile_animals animals_pic">
+                    <img src="../../assets/icons/green-icon.svg" alt="green-pointer-crocodile" class="green-pointer-crocodile pointers">
+                    <img src="../../assets/icons/orange-icon.svg" alt="orange-pointer-crocodile" class="orange-pointer-crocodile pointers">
+                    <div class="tooltiptext-crocodile">
+                        <p class="amimals-name">Alligators</p>
+                        <p class="animals-from">Florida, USA</p>
+                        <button disabled onclick="document.location='../../pages/zoos/Alligator/Alligator.html'" class="whatch-online-button">Whatch online</button>
+                    </div>
+                </div>    
+                <div class="gorilas-box boxs">
+                    <img src="../../assets/icons/gorillas.svg" alt="gorilas" class="gorilas_animals animals_pic">
+                    <img src="../../assets/icons/green-icon.svg" alt="green-pointer-gorilas" class="green-pointer-gorilas pointers">
+                    <img src="../../assets/icons/orange-icon.svg" alt="orange-pointer-gorilas" class="orange-pointer-gorilas pointers">
+                    <div class="tooltiptext-gorilas">
+                        <p class="amimals-name">Gorillas</p>
+                        <p class="animals-from">Native to Congo</p>
+                        <button disabled onclick="document.location='../../pages/zoos/gorilla/gorilla.html'" class="whatch-online-button">Whatch online</button>
+                    </div>
+                </div>
+                <div class="panda-box boxs">
+                    <img src="../../assets/icons/panda.svg" alt="panda" class="panda_animals animals_pic">
+                    <img src="../../assets/icons/green-icon.svg" alt="green-pointer-panda" class="green-pointer-panda pointers">
+                    <img src="../../assets/icons/orange-icon.svg" alt="orange-pointer-panda" class="orange-pointer-panda pointers">
+                    <img src="../../assets/icons/pandas.svg" alt="pandas" class="pandas_animals animals_pic">
+                    <img src="../../assets/icons/green-icon.svg" alt="green-pointer-pandas" class="green-pointer-pandas pointers">
+                    <img src="../../assets/icons/orange-icon.svg" alt="orange-pointer-pandas" class="orange-pointer-pandas pointers">
+                    <div class="tooltiptext-panda">
+                        <p class="amimals-name">Gait Pandas</p>
+                        <p class="animals-from">Native to Southwest China</p>
+                        <button disabled onclick="document.location='../../pages/zoos/panda/panda.html'" class="whatch-online-button">Whatch online</button>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>  
+<footer class="footer">
+  <div class="wrapper">
+    <div class="footer__hat">
+        <div class="footer__icon-mobile">
+            <p class="footer__mobile">PetStory online</p>
+            <img class="foter__mobile-bamboo" src="../../assets/images/bamboo.svg" alt="">
+        </div>
+        <div class="footer__icon">
+            <a href="index.html"><img src="../../assets/icons/logo_footer.svg" alt="logo_footer"></a>
+        </div>
+        <div class="subscribe">
+            <p class="subscribe__title">Subscribe to our news</p>
+            <form class="subscribe-input">
+                <input class="footer__input" name="footer__input" type="email" placeholder="Enter your email" pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+.)+[A-z]{2,4}$" required>
+                <button class="footer__button-submit button">Submit</button>
+            </form>  
+        </div>
+    </div>
+      <button onclick="document.location='../../pages/donate/Donate.html'" class="footer__button button">donate for volunteers</button>
+
+      <div class="footer__menu">
+          <div class="social-networks">
+              <ul class="social-networks__list">
+                  <li class="footer__item facebook"> 
+                          <a href="https://www.facebook.com/" class="footer_logo-link ">
+                            <img src="../../assets/icons/facebook.svg" alt="" class="footer_logo-pic" />
+                          <span class="footer_logo-text inactive" >Facebook</span>
+                          </a>
+                  </li>
+                  <li class="footer__item twitter">
+                      <a href="https://twitter.com/" class="footer_logo-link">
+                        <img src="../../assets/icons/twitter.svg" alt="" class="footer_logo-pic" />
+                      <span class="footer_logo-text inactive" >Twitter</span>
+                      </a>
+                  </li>
+                  <li class="footer__item instagram" >
+                      <a href="https://www.instagram.com/" class="footer_logo-link">
+                        <img src="../../assets/icons/instagram.svg" alt="" class="footer_logo-pic" />
+                      <span class="footer_logo-text inactive" >Instagram</span>
+                      </a>
+                  </li>
+                  <li class="footer__item youtube">
+                      <a href="https://www.youtube.com/" class="footer_logo-link">
+                        <img src="../../assets/icons/youtube.svg" alt="" class="footer_logo-pic" />
+                      <span class="footer_logo-text inactive" >Youtube</span>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+          <div class="footer__menu-list">
+              <nav class="footer__nav">
+                  <ul class="footer__list">
+                      <li class="footer__menu-item active">
+                          <a href="../../index.html" class="footer__link inactive">About</a>
+                      </li>
+                      <li class="footer__menu-item">
+                          <a href="../../pages/Map/Map.html" class="footer__link active">Map</a>
+                      </li>
+                      <li class="footer__menu-item">
+                          <a href="../../pages/zoos/panda/panda.html" class="footer__link inactive">Zoos</a>
+                      </li>
+                      <li class="footer__menu-item">
+                          <a href="#" class="footer__link inactive">Contact us</a>
+                      </li>
+                      
+                  </ul>
+              </nav> 
+          </div>
+      </div>
+  
+  </div>
+  <script src="script.js"></script>
+</footer>
+</body>
+</html>
